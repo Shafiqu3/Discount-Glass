@@ -438,3 +438,56 @@ h1 {
   border-radius: 6px;
 
 }
+
+.contact-box{
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 0 20px 0 #999;
+  width: 1000px;
+  height: 500px;
+  margin-top: 400px;
+  margin-bottom: 5px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+form{
+  margin: 35%;
+ display: grid;
+ justify-content: center;
+ align-items: center;
+}
+
+.input-feild{
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+margin-right: 25px;  
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #494949;
+  outline: none;
+}
+
+.text-area{
+  height: 206px;
+  width: 500px;
+  margin-top: 10px;
+  max-width: 900px;
+  max-height: 267px;
+}
+
+.btn2{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 25%;
+  
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  background-color: #37a000;
+  cursor: pointer;
+  color: #fff;
+}
