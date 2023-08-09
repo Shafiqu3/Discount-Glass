@@ -441,10 +441,10 @@ h1 {
 
 .contact-box{
   position: relative;
-  background-color: #fff;
-  box-shadow: 0 0 20px 0 #999;
+  /* background-color: #fff; */
+  /* box-shadow: 0 0 20px 0 #999; */
   width: 1000px;
-  height: 500px;
+  height: 700px;
   margin-top: 400px;
   margin-bottom: 5px;
   top: 50%;
@@ -452,7 +452,14 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
+.contact-box h1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
 form{
+  margin-bottom: -90px;
+  margin-top: -50px;
   margin: 35%;
  display: grid;
  justify-content: center;
