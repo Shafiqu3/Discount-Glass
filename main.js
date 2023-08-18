@@ -1,3 +1,7 @@
+const length = document.querySelector('#select-length');
+const width = document.querySelector('#select-width');
+
+
 const swiper = new Swiper('.swiper', {
  
 
