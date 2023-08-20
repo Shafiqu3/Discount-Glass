@@ -1,23 +1,13 @@
-const length = document.querySelector('#select-length');
-const width = document.querySelector('#select-width');
+const thickness = document.querySelectorAll("option");
+const price = document.querySelector("div .price");
+const selectList = document.querySelector("select");
+console.log(thickness);
+console.log(selectList);
 
+function changePrice(){
+  price.innerHTML = selectList.value;
+  
+}
 
-const swiper = new Swiper('.swiper', {
- 
+selectList.addEventListener("click", changePrice);
 
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
-});
