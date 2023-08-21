@@ -5,6 +5,7 @@ console.log(thickness);
 console.log(selectList);
 
 function changePrice(){
+  
   price.innerHTML = selectList.value;
   
 }

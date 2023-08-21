@@ -609,3 +609,100 @@ margin-left: 500px;
 }
 
 
+
+
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center button {
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  background: #37a000;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.popup{
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  transform: translate(-25%,-25%);
+  width: 380px;
+  padding: 20px 30px;
+  background: #fff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-left: 1100px;
+  margin-top: -80px;
+}
+
+.popup .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 15px;
+  height: 15px;
+  background: #494949;
+  color: #eee;
+  text-align: center;
+  line-height: 15px;
+  cursor: pointer;
+}
+
+.popup .form h2 {
+  text-align: center;
+  color: #494949;
+  margin: 10px 0px 20px;
+  font-size: 25px;
+}
+
+.popup .form .form-element {
+  margin: 15px 0px;
+}
+
+.popup .form .form-element label {
+  font-size: 14px;
+  color: #494949;
+}
+
+.popup .form .form-element input[type="text"],
+.popup .form .form-element input[type="password"] {
+  margin-top: 5px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #aaa;
+}
+
+.popup .form .form-element input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.popup .form .form-element button {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 12px;
+background: #37a000;
+color: #fff;
+cursor: pointer;
+}
+
+.popup .form .form-element a {
+  display: block;
+  text-align: right;
+  font-size: 12px;
+  color: #494949;
+  text-decoration: none;
+  font-weight: 600;
+}

@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <!-- swiper js -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js" defer></script>
-    <script src="swiper.js" defer></script>
+    <script src="../login.js" defer></script>
 </head>
 
 <body>
@@ -26,7 +26,37 @@
       </div>
       <div class="right">
         <ul>
-          <li><a href="#">LogIn</a></li>
+          <li><a href="#" class ="show-login">LogIn</a></li>
+          <div class="login" style="display: none;">
+            <form >
+          <div class="popup">
+
+            <div class="close-btn">&times;</div>
+            <div class="form">
+              <h2>Log in</h2>
+
+              <div class="form-element">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Enter email">
+              </div>
+              <div class="form-element">
+                <label for="password">Password</label>
+                <input type="password" id="password" autocomplete="on" placeholder="Enter password">
+              </div>
+              <div class="form-element">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">Remember-me</label>
+              </div>
+              <div class="form-element">
+                <button>Sign In</button>
+              </div>
+              <div class="form-element">
+                <a href="#">Forgot password</a>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
           <li><a href="#">SignUp</a></li>
         </ul>
       </div>
@@ -66,15 +96,6 @@
     </div>
   </div>
 
-
-
-
-
-
-
-
-
-  
     <footer class="footer">
       <div class="container">
         <div class="row">
