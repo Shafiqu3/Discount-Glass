@@ -67,7 +67,7 @@
   margin: 0 12px;
 }
 
-.wrapper .top_nav .right ul li:last-child{
+#signUp{
   background:  #37a000;
   margin-right: 0;
   border-radius: 2px;
@@ -75,14 +75,16 @@
   letter-spacing: 3px;
 }
 
-.wrapper .top_nav .right ul li:hover:last-child{
+#signUp:hover{
   background: #494949;
+  color: #aaa;
 }
 
 .wrapper .top_nav .right ul li a{
   display: block;
   padding: 8px 10px;
   color: #666666;
+
 }
 
 .wrapper .top_nav .right ul li:last-child a{
@@ -662,6 +664,8 @@ margin-left: 500px;
   color: #494949;
   margin: 10px 0px 20px;
   font-size: 25px;
+  font-family: Arvo, serif;
+
 }
 
 .popup .form .form-element {
@@ -671,6 +675,8 @@ margin-left: 500px;
 .popup .form .form-element label {
   font-size: 14px;
   color: #494949;
+  font-family: Arvo, serif;
+
 }
 
 .popup .form .form-element input[type="text"],
@@ -705,4 +711,88 @@ cursor: pointer;
   color: #494949;
   text-decoration: none;
   font-weight: 600;
+  font-family: Arvo, serif;
+
 }
+
+.popupsignup{
+  position: absolute;
+  display: none;
+  top: 25%;
+  left: 25%;
+  transform: translate(-25%,-25%);
+  width: 380px;
+  padding: 20px 30px;
+  background: #fff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-left: 1100px;
+  margin-top: -56px;
+}
+
+
+.popupsignup .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 15px;
+  height: 15px;
+  background: #494949;
+  color: #eee;
+  text-align: center;
+  line-height: 15px;
+  cursor: pointer;
+}
+
+.popupsignup .form h2 {
+  text-align: center;
+  color: #494949;
+  margin: 10px 0px 20px;
+  font-size: 25px;
+}
+
+.popupsignup .form .form-element {
+  margin: 15px 0px;
+}
+
+.popupsignup .form .form-element label {
+  font-size: 14px;
+  color: #494949;
+  font-family: Arvo, serif;
+
+}
+
+.popupsignup .form .form-element input[type="text"],
+.popupsignup .form .form-element input[type="password"] {
+  margin-top: 5px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #aaa;
+}
+
+.popupsignup .form .form-element input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.popupsignup .form .form-element button {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 12px;
+background: #37a000;
+color: #fff;
+cursor: pointer;
+}
+
+.popupsignup .form .form-element a {
+  display: block;
+  text-align: right;
+  font-size: 12px;
+  color: #494949;
+  text-decoration: none;
+  font-weight: 600;
+}
+

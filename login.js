@@ -1,15 +1,23 @@
 
-
-const button = document.querySelector(" .right  a ");
-
-console.log(button);
+const signInBtn = document.querySelector(" .right  a ");
+const signUpBtn = document.querySelector("#signUp");
 const popup = document.querySelector(".login");
-console.log(button)
+const popupsignup = document.querySelector(".popupsignup");
 
-button.addEventListener("click", ()=>{
+console.log(popupsignup)
+
+signInBtn.addEventListener("click", ()=>{
   if (popup.style.display === "none") {
     popup.style.display = "block"
   } else {
     popup.style.display = "none";
+  }
+})
+
+signUpBtn.addEventListener("click", ()=>{
+  if(popupsignup.style.display === "block") {
+    popupsignup.style.display = "none";
+  } else{
+    popupsignup.style.display = "block";
   }
 })
