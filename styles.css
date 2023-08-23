@@ -67,7 +67,7 @@
   margin: 0 12px;
 }
 
-#signUp{
+.signUp{
   background:  #37a000;
   margin-right: 0;
   border-radius: 2px;
@@ -75,7 +75,7 @@
   letter-spacing: 3px;
 }
 
-#signUp:hover{
+.signUp:hover{
   background: #494949;
   color: #aaa;
 }
