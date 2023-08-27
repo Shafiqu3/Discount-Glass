@@ -4,12 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Clips</title>
-  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="/assets/styles/styles.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <!-- swiper js -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js" defer></script>
-    <script src="../login.js" defer></script>
+    <script src="/assets/scripts/login.js" defer></script>
+    <script src="/assets/scripts/cart.js" defer></script>
 </head>
 
 <body>
@@ -111,17 +112,19 @@
 
   <div class="chart-container">
     <div class="cart-img">
-      <img src="/images/clips.webp" alt="" width="500" height="659.508">
+      <img src="/images/clips.webp" alt="" width="500" height="659.508" class="display-img">
     </div>
 
     <div class="container-select">
       <div class="select-box">
-          <h2>Mirror Fix Clips <br><div class="price">UGX 7,000</div></h2>
+          <h2 class="descrp">Mirror Fix Clips <br><div class="price">UGX 7,000</div></h2>
           <label for="select-quantity">
             <h3>Quantity</h3>
             <input type="number" class="contact-field" id="select-quantity" min="1">
           </label>
-          <button class="contact-btn">Order</button>
+          <button class="contact-btn">Add To Cart</button>
+          <button class="view-btn">View Cart</button>
+
         </div>
       </div>
     </div>
